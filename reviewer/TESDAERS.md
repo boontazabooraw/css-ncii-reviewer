@@ -102,6 +102,7 @@ Add/check the following features:
 - *DHCP Server*
 - *DNS Server*
 - *File and Storage Services*
+- *File Server Resource Manager*
 - *Print and Document Services*
 - *Remote Desktop Services*
 
@@ -225,11 +226,11 @@ Add/check the following features:
 - You will be prompted to restart.
 
 ### Now both EndUsers will generate folders on your SERVER-PC's Shared Folder
-- To ensure that both ends are working, try creating file/folder for each using your **SERVER-PC**
+- To ensure that both ends are working, try creating a file/folder for each using your **SERVER-PC**
 
-## TIME TO REMOT KONTOL
+## REMOTE DESKTOP CONNECTION
 - On your **SERVER-PC** Go to Remote Desktop Connection settings.
-- Remot Kontol your **CLIENT-PC** using it's IP address `192.168.x.4` and the Password `Password1` (since it is User1)
+- Establish Remote connection with **CLIENT-PC** using it's IP address `192.168.x.4` and the Password `Password1` (since it is User1)
 - Check your **CLIENT-PC** for the Remote confirmation then accept.
     - Restart the **Client-PC** using the **SERVER-PC** via Remot Kontol
 - Once done, do the same for Laptop(`User2:Password2`)
@@ -238,9 +239,34 @@ Add/check the following features:
 - Restart the **SERVER-PC** using your **CLIENT-PC**:
     - More Choices
         - Use a different Account
-            - ``Administrator:Css@12345``
+            - `[Use the Administrator Credentials]`
 
-## PRINTER LETSGO
+## Implementing File Screening
+- On your Server Manager, navigate to the File and Storage Services inside the Sidebar, then Shares
+	- Tasks
+		- **SMB Share - Quick**
+		- `[Next]`
+		- **Type a custom path:** and select the folder to do file screening
+		- `[Next]`
+		- **Enable access-based enumeration** and **Allow caching of share**
+		- **Customize permissions...**
+			- **_Remove everybody EXCEPT Admin and System_**
+			- Add a new User (Accounts) and give it *Full Control* on the Basic Permissions
+			- `[Ok]` and `[Apply]`
+		- `[Create]` then `[Close]`
+- Navigate to Server Manager's *Tools* and select **File Server Resource Manager**
+	- Inside *File Screening Management*, you can **implement** and **create templates** for your own File Screening Ruleset.
+ 		- When *creating a template*, just **give it a name** and then select the **File groups to block.**
+		- To implement the File Screening rule, go to **File Screens** then click **Create File Screen...**
+  			- Specify the *File Screen Path* folder
+     		- On the *Derive properties . . .* you can select the File Screen Template of your liking.
+       		- `[Create]`
+## Assigning a Quota
+- On the File server resource Manager window, navigate to **Quota Management**
+	- Inside **Quotas**, **Create a Quota...**
+		- Specify the folder *(Same folder from File Screening)* and the *Size Limit* of your liking.
+
+## PRINTER
 - Install the `EPSON-L360` as Admin on **CLIENT-PC**
 - Install `EPSON-L360`
 
@@ -277,7 +303,6 @@ Add/check the following features:
     - IPv6 (Enabled)
 
 
-## BACKUP
 
 ---
 

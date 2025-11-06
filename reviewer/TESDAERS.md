@@ -64,6 +64,17 @@
 ## Configuring the remaining devices
 ### Set the IP Addresses for the Server, Client, and WLAN Device (Laptop) using the information above.
 
+## MAC Address Filtering
+### NOTE: This method may vary depending on the **_Router/WAP model._** I recommend understanding the concept of the process rather than memorizing the step-by-step instructions.
+### NOTE: We are *still not sure* whether we'll be doing this on the Router or the WAP.
+- Go to your **Router/WAP's GUI** (Navigate to it's IP Address via the browser)
+- If there’s a page where you can view the devices connected to your WLAN, that’s great. If not, you can still see the MAC Address of the device:
+	- On Windows PC, use `ipconfig /all` on cmd.
+ 	- On mobile devices, you can usually see the MAC Addresses on your Wi-Fi settings.
+- Navigate to the **MAC Filtering Page**
+	- You have two options; **Deny** ONLY the specified MAC Addresses OR **Allow** ONLY the specified MAC Addresses.
+	- Add the desired device using it's MAC Address.
+
 
 ### T-568 A:
 ```WG  G  WO  B  WB  O  WBr  Br```

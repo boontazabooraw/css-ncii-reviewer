@@ -2,7 +2,7 @@
 
 ## Reformat the Bootable USB:
 - ``diskpart``
-- ``listdisk`` to see all drives
+- ``list disk`` to see all drives
 - ``select disk 1``
 - ``clean``
 - ``create partition primary``

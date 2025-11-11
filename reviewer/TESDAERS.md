@@ -1,3 +1,104 @@
+# TESDA CSS NC II – Assessment Itinerary
+
+---
+
+## ORIENTATION
+
+- **Written Test:** 30 items – **20 minutes**  
+- **Passing Score:** 15/30  
+- The **assessor** will check and validate all written exams.
+
+**Notes:**
+- Students scoring **14 and below** may proceed to the **demonstration**, but their result will be marked as **“Not Yet Competent”** and must be reflected on the **CARS** (reassessment for written test only).  
+- Candidates who **pass the written test** but **fail all core competencies** will receive a **COC (Certificate of Competency)** only.  
+- Participants may **process documents**, but **checking rating sheets** and **signing wet signatures** are **for assessors only**.
+
+---
+
+## CORE 1 – INSTALL AND CONFIGURE COMPUTER SYSTEMS (ICCS)
+
+**Tasks:**
+- Disassemble and assemble a PC according to specific instructions (**10 working units**)
+- Create a **bootable device** (manual or third-party tool accepted)
+- **Format** desktop using the bootable device (**Windows 11**)
+- **Install Server OS** using the assessor’s prepared boot device (**Windows Server 2019**)
+- **Partition drives** (at assessor’s discretion)
+- Install **device drivers**
+- Install **applications**
+
+---
+
+## CORE 2 – SET UP COMPUTER NETWORK (SUCH)
+
+**Tasks:**
+- Draw and layout the **network diagram** on a separate sheet
+- Create and patch **straight-through** and **cross-over cables** based on the assessment specifications  
+  (**10 total:** 4 patch cables and 6 network cables)
+- Configure the **Router** (SSID, Password, IP Address, MAC Filtering)
+- Configure the **WAP** (SSID, Password, IP Address, DNS)
+- Perform a **Ping Test**
+
+> **Note:** Subnet class and IP address range will be determined by the assessor.
+
+- Enable and apply **MAC Filtering**
+- Ensure the network is **connected to the Internet**
+
+---
+
+## CORE 3 – SET UP COMPUTER SERVER (SUCS)
+
+**Tasks:**
+- Install and configure all required **server roles**, including:
+  - Active Directory Domain Services (**ADDS**)
+  - **DHCP**
+  - **DNS**
+  - **File Services**
+  - **Print Management**
+  - **Remote Desktop Services**
+  - **File Screening**
+  - **Backup Configuration**
+
+> *Each part of the package must be demonstrated by the candidate.*
+
+---
+
+## CORE 4 – MAINTAIN AND REPAIR COMPUTER SYSTEMS AND NETWORKS
+
+> *Assessment center procedures may vary depending on the assessor’s discretion.*
+
+**Procedure:**
+1. All candidates must **leave the room** so the assessor can **inject faults** based on the assessment package.  
+2. After **5 minutes**, candidates will **return to their designated stations**.  
+3. Each candidate must **troubleshoot** the injected fault(s) and **complete the TESDA-provided form** simultaneously.  
+4. After **30 minutes**, all candidates must **leave the room** in preparation for **individual feedbacking** and **oral questioning**.
+
+---
+
+## ASSESSMENT DURATION
+
+| Activity | Duration |
+|-----------|-----------|
+| Written Test | 20 minutes |
+| Core Demonstrations | ~6 hours |
+| Oral Questioning | 30 minutes |
+| **Total Assessment Time** | **≈ 7 hours** |
+| **Including Orientation** | **≈ 8 hours (8:00 AM – 5:00 PM)** |
+
+> **Note:** Total assessment time is **6 hours**, but assessors may provide allowable adjustments depending on the situation.
+
+---
+
+**Remarks:**  
+> Feel free to review and comment, instructors and assessors, if there are any corrections or missing details.  
+> *Thank you and good luck to all candidates!*
+
+
+
+
+---
+# !!!REVIEWER SECTION!!!
+---
+
 # COC1
 
 ## Reformat the Bootable USB:

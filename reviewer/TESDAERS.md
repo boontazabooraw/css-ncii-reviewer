@@ -99,6 +99,36 @@
 # !!!REVIEWER SECTION!!!
 ---
 
+# Front Panel Connector
+
+| _JFP1/F_Panel_ |      |
+|----------|----------|
+| +PWR LED- | PWR SW |
+| +HDD LED- | RESET  |
+
+
+# UTP Cable and Modular Box
+
+| Pin 1 | Pin 2 | Pin 3 | Pin 4 | Pin 5 | Pin 6 | Pin 7 | Pin 8 |
+|-------|-------|-------|-------|-------|-------|-------|-------|
+| ![Wh_Gr](https://img.shields.io/badge/-WhiteGreen-green) | ![Gr](https://img.shields.io/badge/-Green-green) | ![Wh_Or](https://img.shields.io/badge/-WhiteOrange-darkorange) | ![Bl](https://img.shields.io/badge/-Blue-blue) | ![Wh_Bl](https://img.shields.io/badge/-WhiteBlue-blue) | ![Or](https://img.shields.io/badge/-Orange-darkorange) | ![Wh_Br](https://img.shields.io/badge/-WhiteBrown-brown) | ![Br](https://img.shields.io/badge/-Brown-brown) |
+
+
+# Modular Box
+
+|   Left   |   Right   |
+|-------|-------|
+| ![Wh_Gr](https://img.shields.io/badge/-WhiteGreen-green) | ![Wh_Br](https://img.shields.io/badge/-WhiteBrown-brown)       |
+| ![Gr](https://img.shields.io/badge/-Green-green)         | ![Br](https://img.shields.io/badge/-Brown-brown)               |
+| ![Wh_Bl](https://img.shields.io/badge/-WhiteBlue-blue)   | ![Wh_Or](https://img.shields.io/badge/-WhiteOrange-darkorange) |
+| ![Bl](https://img.shields.io/badge/-Blue-blue)           | ![Wh_Or](https://img.shields.io/badge/-WhiteOrange-darkorange) |
+
+``Quick Note: T-568A starts with White Green (Wh_Gr) while T-568B starts with White Orange(Wh_Or), so just swap them out.``
+
+
+
+---
+
 # COC1
 
 ## Reformat the Bootable USB:
@@ -548,7 +578,7 @@ Add/check the following features:
 
 ## SET C
 
-1. **_3 meters_** is the maximum cable leegnth for USB 3.0 when using a non-twisted pair wire.
+1. **_3 meters_** is the maximum cable length for USB 3.0 when using a non-twisted pair wire.
 
 2. M.2 is a form factor for **_Storage drive._**
 

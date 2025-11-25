@@ -121,7 +121,7 @@
 | ![Wh_Gr](https://img.shields.io/badge/-WhiteGreen-green) | ![Wh_Br](https://img.shields.io/badge/-WhiteBrown-brown)       |
 | ![Gr](https://img.shields.io/badge/-Green-green)         | ![Br](https://img.shields.io/badge/-Brown-brown)               |
 | ![Wh_Bl](https://img.shields.io/badge/-WhiteBlue-blue)   | ![Wh_Or](https://img.shields.io/badge/-WhiteOrange-darkorange) |
-| ![Bl](https://img.shields.io/badge/-Blue-blue)           | ![Wh_Or](https://img.shields.io/badge/-WhiteOrange-darkorange) |
+| ![Bl](https://img.shields.io/badge/-Blue-blue)           | ![Wh_Or](https://img.shields.io/badge/-Orange-darkorange) |
 
 ``Quick Note: T-568A starts with White Green (Wh_Gr) while T-568B starts with White Orange(Wh_Or), so just swap them out.``
 
